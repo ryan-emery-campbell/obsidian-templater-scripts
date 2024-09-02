@@ -1,3 +1,4 @@
+# Archives and packages
 *.tar
 *.tar.*
 *.jar
@@ -5,23 +6,54 @@
 *.msi
 *.zip
 *.tgz
+
+# Logs
 *.log
 *.log.*
+
+# Signatures
 *.sig
 
+# Directories to ignore
 pkg/
 src/
 
-
 # macOS
-*.DS_Store
-*.AppleDouble
-*.LSOverride
-*._*
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
 
 # Thumbnails
-*._*
+._*
 
 # Files that might appear on external disks
-*.Spotlight-V100
-*.Trashes
+.Spotlight-V100
+.Trashes
+
+# Ubuntu/Linux
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+*.tmp
+*.temp
+*.o
+*.out
+*.class
+.cache
+.config
+.dist
+env/
+venv/
+local/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.lnk
+ntuser.dat
+ehthumbs.db
